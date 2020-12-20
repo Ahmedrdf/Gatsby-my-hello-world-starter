@@ -10,6 +10,8 @@ module.exports = {
   pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Ahmed',
   lastName: 'Mansour',
+  appHtml: resolveApp('public/index.html'),
+  appIndexJs: resolveApp('src/index.js'),
   // social
   socialLinks: [
     {
